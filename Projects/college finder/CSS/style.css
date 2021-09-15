@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.item img{
+    width: 13px;
+    height: 15px;
+}
+
+.description{
+    max-width: fit-content;
+    /* margin-top: 20px; */
+}
+
+.super{
+    background-image: linear-gradient(180deg, rgb(88, 88, 88), rgb(111, 143, 81));
+    color: white;
+}
+
+.foram{
+    background-color: bisque;
+    max-width: fit-content;
+}
+.creater{
+    background-image: linear-gradient(180deg, rgb(88, 88, 88), rgb(49, 49, 49));
+    color: white;
+}
