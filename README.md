@@ -6,7 +6,7 @@
 
 ### Connect with me:
 [<img align="left" alt="Jay | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Jay | Instagram" width="22px" src="https://www.instagram.com/jay_._32/" />][instagram]
+[<img align="left" alt="Jay | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
