@@ -6,6 +6,7 @@ for (var i = 0; i < noOfKeys; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function (){
         var button = this.innerHTML;
         sounddd(button);
+        buttonAnimation(button);
     });
 }
 
@@ -14,6 +15,7 @@ for (var i = 0; i < noOfKeys; i++) {
 document.addEventListener("keypress", function(Event){
     var keyboard = Event.key;
     sounddd(keyboard);
+    buttonAnimation(keyboard);
 });
 
 function sounddd(key){
@@ -58,7 +60,14 @@ function sounddd(key){
         }
 }
 
+function buttonAnimation(button){
+    var animation = document.querySelector("." + button);
+    animation.classList.add("pressed");
 
+    setTimeout(function(){
+        animation.classList.remove("pressed");
+    },100) 
+}
 
 
 
