@@ -64,9 +64,12 @@ app.post("/failure", function(req,res){
   res.redirect("/");
 })
 
-app.listen(process.env.PORT || 3000, function () {
-    console.log("GO TO 3000");
+app.listen(22, function () {
+    console.log("GO TO 3000");  
 });
+
+//Port for heroku
+//process.env.PORT || 3000
 
 //API Key
 //f006c575d1413d79ac94da1edd8494b1-us5
